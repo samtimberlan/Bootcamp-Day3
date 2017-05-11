@@ -1,5 +1,5 @@
 const jasmine = require("jasmine");
-const myApp = require('./reverseString');
+const myApp = require('./reverseStringLab1');
 
 describe("Produce the reverse order of a word: ", function() {
   describe("Case for en empty string", function() {
