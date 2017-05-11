@@ -1,0 +1,13 @@
+const reverseString = (argumentPassed) => 
+{
+  if(argumentPassed === "" || argumentPassed === null || argumentPassed === undefined){
+      errorMessage = 'Please enter a string';
+      return errorMessage;
+    }
+  let result = argumentPassed.split().reverse().join("");
+  if(argumentPassed === result)
+  {
+    return true
+  }
+   return result;
+}
