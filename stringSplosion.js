@@ -6,9 +6,11 @@ class StringSplosion{
     manipulate(argumentPassed){
         let argumentPassedArray = argumentPassed.split("");
         let result = [];
-        for(counter = 0; counter < argumentPassedArray.length; counter--){
-            result = argumentPassedArray[counter];
+        for(let counter = 0; counter < argumentPassedArray.length; counter++){
+            for(let innerCounter = 0; innerCounter <= counter; innerCounter++){
+              result.push(argumentPassedArray[innerCounter]);
+            }
         }
-        return result;
+        return result.join();
     }
 }
