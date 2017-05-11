@@ -1,5 +1,5 @@
 const jasmine = require("jasmine");
-const myApp = require("./stringSplosion");
+const StringSplosion = require("./stringSplosion").StringSplosion;
 
 describe(" String splosion", function(){
 

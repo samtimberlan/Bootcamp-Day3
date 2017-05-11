@@ -14,3 +14,4 @@ class StringSplosion{
         return result.join();
     }
 }
+module.exports= new StringSplosion;
